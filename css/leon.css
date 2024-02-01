@@ -6,6 +6,7 @@
   --img-color: #f8f8f8;
   --shadow: #0000002e;
   --bg-shaded: rgb(252, 252, 252);
+  --dark-blue: #2c4755;
 }
 /* End The main variables */
 /* Start The global rules */
@@ -369,6 +370,18 @@ body {
   color: var(--main-color);
 }
 /* end contact */
+/* footer */
+footer {
+  background-color: var(--dark-blue);
+  padding: 20px 40px;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+}
+footer span {
+  color: var(--main-color);
+}
+/* end footer */
 /* media Queries */
 @media (min-width: 667px) {
   /* custom mediaquery to align the third element correctly */
