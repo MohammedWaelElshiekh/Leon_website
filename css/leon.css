@@ -260,6 +260,9 @@ body {
   color: var(--text-color);
 }
 /* end portfolio */
+/* about */
+.services
+/* end about */
 /* media Queries */
 @media (min-width: 667px) {
   /* custom mediaquery to align the third element correctly */
